@@ -22,7 +22,7 @@
     <Grid Background="LightGray">
         
         <Grid Height="80" Background="Black" Margin="400,0,0,0"  VerticalAlignment="Top">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Name="btnshowGrid" Tapped="btnshowGrid_Tapped">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Name="btnshowGrid">
                 <TextBlock Text="Gestion D'application" FontSize="35" Foreground="White" VerticalAlignment="Center"/>
             </StackPanel>
         </Grid>

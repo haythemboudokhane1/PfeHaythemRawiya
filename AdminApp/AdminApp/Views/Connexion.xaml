@@ -22,7 +22,7 @@
                 <StackPanel VerticalAlignment="Center">
                     <TextBox PlaceholderText="Adresse email" Name="txtemail" Margin="10"/>
                     <PasswordBox PlaceholderText="Mot de passe" Name="txtpw" Margin="10"/>
-                    <Button Background="Black" Foreground="White" Width="250" HorizontalAlignment="Center" Content="Se Connecter"/>
+                    <Button Background="Black" Foreground="White" Width="250" HorizontalAlignment="Center" Content="Se Connecter" Name="btnCnx" Click="btnCnx_Click"/>
                 </StackPanel>
             </Grid>
         </StackPanel>
