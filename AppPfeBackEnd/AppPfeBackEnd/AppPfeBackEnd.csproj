@@ -189,15 +189,27 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\AbonneesController.cs" />
+    <Compile Include="Controllers\AbonneesMVCController.cs" />
     <Compile Include="Controllers\AdministrateursController.cs" />
     <Compile Include="Controllers\AdministrateursMVCController.cs" />
+    <Compile Include="Controllers\CommercantsController.cs" />
+    <Compile Include="Controllers\CommercantsMVCController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PecheursController.cs" />
+    <Compile Include="Controllers\PecheursMVCController.cs" />
+    <Compile Include="Controllers\PublicationPecheursController.cs" />
+    <Compile Include="Controllers\PublicationPecheursMVCController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Abonnee.cs" />
     <Compile Include="Models\Administrateur.cs" />
     <Compile Include="Models\AdministrateursContext.cs" />
+    <Compile Include="Models\Commercant.cs" />
+    <Compile Include="Models\Pecheur.cs" />
+    <Compile Include="Models\PublicationPecheur.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -256,6 +268,26 @@
     <Content Include="Views\AdministrateursMVC\Details.cshtml" />
     <Content Include="Views\AdministrateursMVC\Edit.cshtml" />
     <Content Include="Views\AdministrateursMVC\Index.cshtml" />
+    <Content Include="Views\CommercantsMVC\Create.cshtml" />
+    <Content Include="Views\CommercantsMVC\Delete.cshtml" />
+    <Content Include="Views\CommercantsMVC\Details.cshtml" />
+    <Content Include="Views\CommercantsMVC\Edit.cshtml" />
+    <Content Include="Views\CommercantsMVC\Index.cshtml" />
+    <Content Include="Views\PecheursMVC\Create.cshtml" />
+    <Content Include="Views\PecheursMVC\Delete.cshtml" />
+    <Content Include="Views\PecheursMVC\Details.cshtml" />
+    <Content Include="Views\PecheursMVC\Edit.cshtml" />
+    <Content Include="Views\PecheursMVC\Index.cshtml" />
+    <Content Include="Views\AbonneesMVC\Create.cshtml" />
+    <Content Include="Views\AbonneesMVC\Delete.cshtml" />
+    <Content Include="Views\AbonneesMVC\Details.cshtml" />
+    <Content Include="Views\AbonneesMVC\Edit.cshtml" />
+    <Content Include="Views\AbonneesMVC\Index.cshtml" />
+    <Content Include="Views\PublicationPecheursMVC\Create.cshtml" />
+    <Content Include="Views\PublicationPecheursMVC\Delete.cshtml" />
+    <Content Include="Views\PublicationPecheursMVC\Details.cshtml" />
+    <Content Include="Views\PublicationPecheursMVC\Edit.cshtml" />
+    <Content Include="Views\PublicationPecheursMVC\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,82 @@
+﻿@model AppPfeBackEnd.Models.Commercant
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Commercant</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prenom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prenom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adressEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adressEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.motDePasse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.motDePasse)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ConfirmerMotDePasse)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConfirmerMotDePasse)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adressMagasin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adressMagasin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroTelephone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroTelephone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.photo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.photo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

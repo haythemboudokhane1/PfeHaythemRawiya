@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppUser.Views.InscriptionUtilisateurs">
+  <!--Pages can be added as references or inline-->
+
+    <ContentPage Title="Inscription Abonné" >
+        <ContentPage.Content>
+            <Grid >
+                <Grid BackgroundColor="#34495e" HeightRequest="60" VerticalOptions="Start">
+                    <Label Text="Inscription" TextColor="White" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </Grid>
+                <Grid Margin="0,80,0,0">
+                    <StackLayout Orientation="Vertical" VerticalOptions="Start">
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="25" x:Name="txtnom"  Placeholder="Votre Nom" BackgroundColor="Transparent"/>
+                                <Image Source="user-outline.png"  HorizontalOptions="End" HeightRequest="25" WidthRequest="25"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="25" x:Name="txtprenom"  Placeholder="Votre Prenom" BackgroundColor="Transparent"/>
+                                <Image Source="user-outline.png"  HorizontalOptions="End" HeightRequest="25" WidthRequest="25"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300" x:Name="txtEmail" Placeholder=" Votre E-mail" BackgroundColor="Transparent"  />
+                                <Image Source="email-filled-closed-envelope (1).png"  HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300" x:Name="txtmdp"   Placeholder="Mot De Passe"  IsPassword="True" BackgroundColor="Transparent" />
+                                <Image Source="locked-padlock.png "  HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300" x:Name="txtcmdp"  Placeholder="Confirmer Mot De Passe" IsPassword="True" BackgroundColor="Transparent" />
+                                <Image Source=" locked-padlock.png" HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Label Text=" " HorizontalOptions="Start"/>
+                            <Button Text="S'inscrire"  x:Name="btninscrir" BackgroundColor="#1abc9c" WidthRequest="600" HeightRequest="50" TextColor="White" HorizontalOptions="Center" Clicked="btninscrir_Clicked"/>
+                            <Label Text=" " HorizontalOptions="End"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+            </Grid>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage Title="Inscriptio Pecheur" >
+        <ContentPage.Content>
+            <Grid >
+                <Grid BackgroundColor="#34495e" HeightRequest="60" VerticalOptions="Start">
+                    <Label Text="Inscription" TextColor="White" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                </Grid>
+                <Grid Margin="0,80,0,0">
+                    <StackLayout Orientation="Vertical" VerticalOptions="Start">
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="25"  Placeholder="Votre Nom" BackgroundColor="Transparent" x:Name="txtnomm" />
+                                <Image Source="user-outline.png"  HorizontalOptions="End" HeightRequest="25" WidthRequest="25"/>
+                            </Grid>
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="25"  Placeholder="Votre Prenom" BackgroundColor="Transparent" x:Name="txtprenomm"/>
+                                <Image Source="user-outline.png"  HorizontalOptions="End" HeightRequest="25" WidthRequest="25"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300"  Placeholder=" Votre E-mail" BackgroundColor="Transparent" x:Name="txtemaill"  />
+                                <Image Source="email-filled-closed-envelope (1).png"  HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Votre Expérience"/>
+                                    <Picker x:Name="pckExp" HeightRequest="40" WidthRequest="150"/>
+                                </StackLayout>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300" x:Name="txtmotdepasse"   Placeholder="Mot De Passe"  IsPassword="True" BackgroundColor="Transparent"  />
+                                <Image Source="locked-padlock.png "  HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300"  x:Name="txtConfirmermotdepasse" Placeholder="Confirmer Mot De Passe" IsPassword="True" BackgroundColor="Transparent"  />
+                                <Image Source=" locked-padlock.png"  HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300" x:Name="txtnumeroTelephone"  Placeholder=" Votre Numéro Télephone" BackgroundColor="Transparent"  />
+                                <Image Source="phone-numbers-call.png " HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300" x:Name="txtadrMag"  Placeholder=" Votre Adresse Magasin" BackgroundColor="Transparent"  />
+                                <Image Source="phone-numbers-call.png " HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Label Text=" " HorizontalOptions="Start"/>
+                            <Button Text="S'inscrire"   x:Name="btninscrirpecheur"  BackgroundColor="#1abc9c" WidthRequest="600" HeightRequest="40" TextColor="White" HorizontalOptions="Center" Clicked="btninscrirpecheur_Clicked"/>
+                            <Label Text=" " HorizontalOptions="End"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+            </Grid>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Title="Inscription Commerçant" >
+        <ContentPage.Content>
+            <Grid >
+                <Grid BackgroundColor="#34495e" HeightRequest="60" VerticalOptions="Start">
+                    <Label Text="Inscription" TextColor="White" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+                </Grid>
+
+                <Grid Margin="0,80,0,0">
+                    <StackLayout Orientation="Vertical" VerticalOptions="Start">
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="25" x:Name="txtNom" Placeholder="Votre Nom" BackgroundColor="Transparent"  />
+                                <Image Source="user-outline.png"  HorizontalOptions="End" HeightRequest="25" WidthRequest="25"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="25" x:Name="txtpre"  Placeholder="Votre Prenom" BackgroundColor="Transparent"  />
+                                <Image Source="user-outline.png"  HorizontalOptions="End" HeightRequest="25" WidthRequest="25"/>
+                            </Grid>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300" x:Name="txtAEmail"  Placeholder=" Votre E-mail" BackgroundColor="Transparent"  />
+                                <Image Source="email-filled-closed-envelope (1).png"  HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300" x:Name="txtAdresseMagazin"  Placeholder=" Votre adresse Magasin" BackgroundColor="Transparent"  />
+                                <Image Source="location-point.png"  HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300" x:Name="txtNumTel" Placeholder=" Votre Numéro Télephone" BackgroundColor="Transparent"  />
+                                <Image Source="phone-numbers-call.png "  HorizontalOptions="End"/>
+                            </Grid>
+
+                        </StackLayout>
+
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300" x:Name="txtMp"   Placeholder="Mot De Passe"  IsPassword="True" BackgroundColor="Transparent"  />
+                                <Image Source="locked-padlock.png "  HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Grid WidthRequest="300">
+                                <Entry WidthRequest="300" x:Name="txtcmd"  Placeholder="Confirmer Mot De Passe" IsPassword="True" BackgroundColor="Transparent"  />
+                                <Image Source=" locked-padlock.png"  HorizontalOptions="End"/>
+                            </Grid>
+                        </StackLayout>
+
+                        <StackLayout HorizontalOptions="Center" WidthRequest="600">
+                            <Label Text=" " HorizontalOptions="Start"/>
+                            <Button Text="S'inscrire"  x:Name="bntinscrirVendeur"  BackgroundColor="#1abc9c" WidthRequest="600" HeightRequest="40" TextColor="White" HorizontalOptions="Center" Clicked="bntinscrirVendeur_Clicked"/>
+                            <Label Text=" " HorizontalOptions="End"/>
+                        </StackLayout>
+                   </StackLayout>
+                    </StackLayout>
+                </Grid>
+                     
+               
+            </Grid>
+        </ContentPage.Content>
+    </ContentPage>
+</TabbedPage>

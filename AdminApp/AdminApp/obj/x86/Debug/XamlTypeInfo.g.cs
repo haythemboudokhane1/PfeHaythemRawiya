@@ -132,19 +132,25 @@ namespace AdminApp.AdminApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[5];
+            _typeNameTable = new string[8];
             _typeNameTable[0] = "AdminApp.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "AdminApp.Views.Accueil";
             _typeNameTable[4] = "AdminApp.Views.Connexion";
+            _typeNameTable[5] = "AdminApp.Views.GererPecheur";
+            _typeNameTable[6] = "AdminApp.Views.GererUtilisateur";
+            _typeNameTable[7] = "AdminApp.Views.GererVendeur";
 
-            _typeTable = new global::System.Type[5];
+            _typeTable = new global::System.Type[8];
             _typeTable[0] = typeof(global::AdminApp.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::AdminApp.Views.Accueil);
             _typeTable[4] = typeof(global::AdminApp.Views.Connexion);
+            _typeTable[5] = typeof(global::AdminApp.Views.GererPecheur);
+            _typeTable[6] = typeof(global::AdminApp.Views.GererUtilisateur);
+            _typeTable[7] = typeof(global::AdminApp.Views.GererVendeur);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -182,6 +188,9 @@ namespace AdminApp.AdminApp_XamlTypeInfo
         private object Activate_0_MainPage() { return new global::AdminApp.MainPage(); }
         private object Activate_3_Accueil() { return new global::AdminApp.Views.Accueil(); }
         private object Activate_4_Connexion() { return new global::AdminApp.Views.Connexion(); }
+        private object Activate_5_GererPecheur() { return new global::AdminApp.Views.GererPecheur(); }
+        private object Activate_6_GererUtilisateur() { return new global::AdminApp.Views.GererUtilisateur(); }
+        private object Activate_7_GererVendeur() { return new global::AdminApp.Views.GererVendeur(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -218,6 +227,27 @@ namespace AdminApp.AdminApp_XamlTypeInfo
             case 4:   //  AdminApp.Views.Connexion
                 userType = new global::AdminApp.AdminApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_4_Connexion;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  AdminApp.Views.GererPecheur
+                userType = new global::AdminApp.AdminApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_GererPecheur;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  AdminApp.Views.GererUtilisateur
+                userType = new global::AdminApp.AdminApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_GererUtilisateur;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  AdminApp.Views.GererVendeur
+                userType = new global::AdminApp.AdminApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_GererVendeur;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

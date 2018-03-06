@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppUser.Views.EspacePecheur.GererProfil.GererPublication">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Index">
+                
+    </ContentPage>
+    <ContentPage Title="Mise a jour">
+        <Grid>
+            <StackLayout>
+                <StackLayout>
+                    <Image  x:Name="imgcamera" HeightRequest="100" WidthRequest="100">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="btnimage" Tapped="btnimage_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+                <Entry Placeholder="Nom" x:Name="txtNomPublication"/>
+                <Entry Placeholder="Lieu" x:Name="txtlieupub"/>
+                <Entry Placeholder="Poids" x:Name="txtPoids"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="A vendre " Margin="5,10,5,0"/>
+                    <Switch x:Name="swChoix" Toggled="swChoix_Toggled"  />
+                </StackLayout >
+                <Button x:Name="btnenreg" Text="Enregistrer" Clicked="btnenreg_Clicked" />
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+</TabbedPage>

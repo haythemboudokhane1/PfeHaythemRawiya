@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppUser.Views.Connexion">
+    <ContentPage.Content>
+    
+            <Grid>
+                <Image x:Name="imgbg" Aspect="Fill"/>
+                <StackLayout VerticalOptions="Center">
+                    <Entry Placeholder="Adresse Email" x:Name="txtemail" PlaceholderColor="#2c3e50" TextColor="#2c3e50" Margin="10,0,10,0"/>
+                    <Entry Placeholder="Mot de passe" x:Name="txtpw" IsPassword="True" PlaceholderColor="#2c3e50" TextColor="#2c3e50" Margin="10,0,10,0"/>
+                    <Button Text="Se Connecter" x:Name="btnConnect" TextColor="White" BackgroundColor="#3498db" Margin="10,0,10,0" Clicked="btnConnect_Clicked"/>
+                    <Button Text="S'Inscrire" x:Name="btnInscription" TextColor="White" BackgroundColor="#34495e" Margin="10,0,10,0" Clicked="btnInscription_Clicked"/>
+                </StackLayout>
+            </Grid>
+       
+    </ContentPage.Content>
+</ContentPage>

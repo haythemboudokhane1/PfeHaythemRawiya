@@ -30,7 +30,7 @@
             <Grid.Background>
                 <ImageBrush ImageSource="ms-appx:///Images/sidebar.jpg" Stretch="UniformToFill"/>
             </Grid.Background>
-            <Grid Background="DarkViolet" Opacity="0.8">
+            <Grid  Background="Black" Opacity="0.8">
                 <StackPanel Height="80" VerticalAlignment="Top" Orientation="Horizontal" HorizontalAlignment="Center">
                     <Image Margin="10" Source="ms-appx:///Images/menu (3).png" Height="40" />
                     <TextBlock Text="Menu" FontSize="45" Foreground="White" Margin="10"/>
@@ -41,31 +41,31 @@
                
                 <StackPanel Orientation="Horizontal">
                     <Image Source="ms-appx:///Images/home.png" Margin="10"/>
-                    <TextBlock Text="Accueil" Foreground="White" Name="txtAccueil" Margin="10" FontSize="40" />
+                    <TextBlock Text="Accueil" Foreground="White" Name="txtAccueil" Margin="10" FontSize="35" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Image Source="ms-appx:///Images/goldfish (3).png" Margin="10"/>
-                <TextBlock Text="Gérer Poisson" Foreground="White" Name="txtGP" Margin="10" FontSize="40" />
+                <TextBlock Text="Gérer Poisson" Foreground="White" Name="txtGP" Margin="10" FontSize="35" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                 <Image Source="ms-appx:///Images/2.png" Margin="10"/>
-                <TextBlock Text="Gérer pêcheur" Foreground="White" Name="txtGPecheur" Margin="10" FontSize="40" />
+                <TextBlock Text="Gérer pêcheur" Foreground="White" Name="txtGPecheur" Margin="10" FontSize="35" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Image Source="ms-appx:///Images/3.png" Margin="10"/>
-                    <TextBlock Text="Gérer Utilisateur" Foreground="White"  Name="txtGU" Margin="10" FontSize="40" />
+                    <TextBlock Text="Gérer Abonnee" Foreground="White"  Name="txtGU" Margin="10" FontSize="35" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Image Source="ms-appx:///Images/store.png" Margin="10" />
-                    <TextBlock Text="Gérer Vendeur" Foreground="White"  Name="txtGV" Margin="10" FontSize="40" />
+                    <TextBlock Text="Gérer Commerçant" Foreground="White"  Name="txtGV" Margin="10" FontSize="35" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Image Source="ms-appx:///Images/post.png" Margin="10" />
-                    <TextBlock Text="Gérer Publication" Foreground="White"  Name="txtGPub" Margin="10" FontSize="40" />
+                    <TextBlock Text="Gérer Publication" Foreground="White"  Name="txtGPub" Margin="10" FontSize="35" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <Image Source="ms-appx:///Images/logout.png" Margin="10" />
-                    <TextBlock Text="Se Déconecter" Foreground="White"  Name="txtlogout" Margin="10" FontSize="40" />
+                    <TextBlock Text="Se Déconecter" Foreground="White"  Name="txtlogout" Margin="10" FontSize="35" />
                 </StackPanel>
             </StackPanel>
         </Grid>

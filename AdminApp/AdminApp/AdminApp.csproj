@@ -98,13 +98,25 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Abonnee.cs" />
     <Compile Include="Models\Administrateur.cs" />
+    <Compile Include="Models\Commercant.cs" />
+    <Compile Include="Models\Pecheur.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Accueil.xaml.cs">
       <DependentUpon>Accueil.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Connexion.xaml.cs">
       <DependentUpon>Connexion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GererPecheur.xaml.cs">
+      <DependentUpon>GererPecheur.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GererUtilisateur.xaml.cs">
+      <DependentUpon>GererUtilisateur.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GererCommercant.xaml.cs">
+      <DependentUpon>GererCommercant.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +135,7 @@
     <Content Include="Images\bg1.jpg" />
     <Content Include="Images\goldfish %283%29.png" />
     <Content Include="Images\home.png" />
+    <Content Include="Images\imgbebe.jpg" />
     <Content Include="Images\logout.png" />
     <Content Include="Images\menu %281%29.png" />
     <Content Include="Images\menu %282%29.png" />
@@ -156,6 +169,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\GererPecheur.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GererUtilisateur.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GererCommercant.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Net.Http">
@@ -169,7 +194,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ViewModels\" />
+    <Folder Include="Views\ViewModels\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

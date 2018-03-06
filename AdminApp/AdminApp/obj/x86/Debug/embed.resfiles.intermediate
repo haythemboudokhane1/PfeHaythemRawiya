@@ -2,3 +2,6 @@ App.xbf
 MainPage.xbf
 Views\Accueil.xbf
 Views\Connexion.xbf
+Views\GererCommercant.xbf
+Views\GererPecheur.xbf
+Views\GererUtilisateur.xbf

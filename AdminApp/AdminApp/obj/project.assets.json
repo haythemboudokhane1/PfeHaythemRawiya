@@ -27826,32 +27826,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rawia\\.nuget\\packages\\": {},
-    "C:\\Program Files\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rawia\\source\\repos\\PfeHaythemRawiya\\AdminApp\\AdminApp\\AdminApp.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\PfeHaythemRawiya\\AdminApp\\AdminApp\\AdminApp.csproj",
       "projectName": "AdminApp",
-      "projectPath": "C:\\Users\\Rawia\\source\\repos\\PfeHaythemRawiya\\AdminApp\\AdminApp\\AdminApp.csproj",
-      "packagesPath": "C:\\Users\\Rawia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rawia\\source\\repos\\PfeHaythemRawiya\\AdminApp\\AdminApp\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\PfeHaythemRawiya\\AdminApp\\AdminApp\\AdminApp.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\PfeHaythemRawiya\\AdminApp\\AdminApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files\\Microsoft SDKs\\NuGetPackagesFallback\\"
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rawia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.10586"
       ],
       "sources": {
-        "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

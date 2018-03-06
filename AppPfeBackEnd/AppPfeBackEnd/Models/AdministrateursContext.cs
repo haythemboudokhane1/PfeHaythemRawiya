@@ -20,5 +20,14 @@ namespace AppPfeBackEnd.Models
         }
 
         public System.Data.Entity.DbSet<AppPfeBackEnd.Models.Administrateur> Administrateurs { get; set; }
+
+
+        public System.Data.Entity.DbSet<AppPfeBackEnd.Models.Commercant> Commercants { get; set; }
+
+        public System.Data.Entity.DbSet<AppPfeBackEnd.Models.Pecheur> Pecheurs { get; set; }
+
+        public System.Data.Entity.DbSet<AppPfeBackEnd.Models.Abonnee> Abonnees { get; set; }
+
+        public System.Data.Entity.DbSet<AppPfeBackEnd.Models.PublicationPecheur> PublicationPecheurs { get; set; }
     }
 }
